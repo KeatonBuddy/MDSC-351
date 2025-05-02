@@ -1,3 +1,5 @@
+# MDSC Projects Completed During Bachelor of Health Sciences in Bioinformatics at University of Calgary
+
 # Project 1: ER Stress Pathway (IRE1α/XBP) in Cancer Viability
 ## Overview
 This project investigates the endoplasmic reticulum (ER) stress response pathway, specifically the IRE1α/XBP axis, and its critical role in cancer cell viability. Under conditions of increased MYC oncogene expression, cancer cells experience heightened ER stress. This stress activates the IRE1α enzyme, leading to splicing and activation of the transcription factor XBP. The activated IRE1α/XBP pathway promotes survival by adapting cancer cells to ER stress conditions.
@@ -49,3 +51,33 @@ This project examines Profilin, an actin-binding protein essential for cytoskele
 
 ## Implications and Future Work
 Insights from Profilin studies could guide new diagnostic strategies, helping identify ALS risk early through genetic screening. Additionally, targeting Profilin-related aggregation pathways may offer novel therapeutic strategies for treating ALS
+
+# Project 3: Genome-Wide Association Study (GWAS) of Flowering Time at 10°C in Arabidopsis thaliana
+## Overview
+This project performs a genome-wide association study to uncover genetic variants associated with accelerated flowering time in Arabidopsis thaliana at 10°C, testing the hypothesis that chromosome 3 harbors significant loci.
+
+## Objectives
+
+- Identify genomic loci linked to early flowering at 10°C.
+
+- Test the hypothesis of significant associations on chromosome 3.
+
+## Methodology
+
+- Acquired genotype (call_method_54.tair9.FT10.csv) and phenotype (FT10.txt) datasets, matched samples, and removed NAs.
+
+- Binarized allele calls into ±1.
+
+- Conducted GWAS using the rrBLUP::GWAS() function and visualized results with Manhattan and QQ plots citeturn1file2.
+
+## Key Findings
+
+- Significant association peaks identified on chromosomes 1, 2, and 4, rather than chromosome 3.
+
+- QQ plot indicated limited deviation from the null, suggesting modest statistical power citeturn1file3.
+
+## Implications and Future Work
+
+- Loci on chromosomes 1, 2, and 4 are prime candidates for functional follow-up studies.
+
+- Future work should increase sample size, refine phenotype measurements, and validate candidate variants experimentally.
