@@ -68,7 +68,7 @@ This project performs a genome-wide association study to uncover genetic variant
 
 - Binarized allele calls into ±1.
 
-- Conducted GWAS using the rrBLUP::GWAS() function and visualized results with Manhattan and QQ plots citeturn1file2.
+- Conducted GWAS using the rrBLUP::GWAS() function and visualized results with Manhattan and QQ plots.
 
 ## Key Findings
 
